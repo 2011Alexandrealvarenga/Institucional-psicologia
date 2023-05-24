@@ -1,3 +1,61 @@
-p{
+/* inicio - conheça mais tarde */
+.conheca-mais-sobre{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #000;
+}
+.conheca-mais-sobre .content-left {
+  height: 100%;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+}
+.conheca-mais-sobre .content-left .title{
   color: red;
+}
+.conheca-mais-sobre .content-left .subtitle{
+  color: white;
+}
+.conheca-mais-sobre .content-left p{
+  color: white;
+}
+.conheca-mais-sobre .content-right img{
+  width: 300px;
+  height: 500px;
+  object-fit: cover;
+}
+/* fim - conheça mais tarde */
+
+.agende-horario{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #000;
+}
+.agende-horario .content-left {
+  height: 100%;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+}
+.agende-horario .content-left .title{
+  color: red;
+}
+.agende-horario .content-left .subtitle{
+  color: white;
+}
+.agende-horario .content-left p{
+  color: white;
+}
+.agende-horario .content-right img{
+  width: 300px;
+  height: 500px;
+  object-fit: cover;
 }
