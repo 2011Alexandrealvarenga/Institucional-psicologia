@@ -29,7 +29,7 @@
   object-fit: cover;
 }
 /* fim - conheça mais tarde */
-
+/* inicio - agende horario */
 .agende-horario{
   display: flex;
   justify-content: center;
@@ -37,25 +37,69 @@
   height: 100vh;
   background: #000;
 }
-.agende-horario .content-left {
+.agende-horario .content-left{
+  float: right;
+}
+.agende-horario .content-left img{
+  height: 500px;
+  object-fit: cover;
+  align-items: right;
+}
+.agende-horario .content-right {
   height: 100%;
   justify-content: center;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-
 }
-.agende-horario .content-left .title{
+.agende-horario .content-right .title{
   color: red;
 }
-.agende-horario .content-left .subtitle{
+.agende-horario .content-right .subtitle{
   color: white;
 }
-.agende-horario .content-left p{
+.agende-horario .content-right p{
   color: white;
 }
-.agende-horario .content-right img{
+.agende-horario .col-6 {
+  padding: 0;
+}
+/* fim - agende horario */
+
+/* inicio - contrate */
+.contrate{
+
+  height: 100vh;
+  /* height: 500px; */
+  background: #000;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: url(/assets/img/psicologa-contrate-uma-palestra.jpeg); */
+  background: url(/assets/img/psicologa-contrate-uma-palestra.jpeg) 0% 0% / cover no-repeat fixed;
+  overflow: hidden;
+}
+.contrate .content{
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+  background: #000;
   width: 300px;
-  height: 500px;
-  object-fit: cover;
+  height: 400px;
+  padding: 32px;
+  border-radius: 20px;
 }
+.contrate .content .title{
+  color: red;
+}
+.contrate .content .subtitle{
+  color: white;
+}
+.contrate .content p{
+  color: white;
+}
+
+/* fim - contrate */
