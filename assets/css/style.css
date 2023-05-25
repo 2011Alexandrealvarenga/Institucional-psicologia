@@ -1,3 +1,33 @@
+/* 
+cor 
+#BE7E5B botao laranja
+#F3F3F3 prata
+
+degrade dourado
+#DBB09D
+#D4977E
+
+paragrafo cinza a7a3a3
+
+*/
+.bg-font{
+	background: linear-gradient(90deg, rgba(212,151,126,1) 0%, rgba(219,176,157,1) 50%, rgba(212,151,126,1) 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+h1, h2, h3, h4, h5, h6{
+  line-height: 1.0;
+}
+
+h1, h2{
+  font-family: 'Martel', serif;
+}
+h3, h4, h5, h6, p{font-family: 'Roboto', sans-serif;}
+
+h1{ font-size: 36px;}
+h2{  font-size: 32px;  }
+h3{  font-size: 24px;  }
+    
 /* inicio - conheça mais tarde */
 .conheca-mais-sobre{
   display: flex;
@@ -8,25 +38,39 @@
 }
 .conheca-mais-sobre .content-left {
   height: 100%;
+  width: 300px;
   justify-content: center;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
+  border: 1px solid red;
+  float: right;
 
 }
 .conheca-mais-sobre .content-left .title{
-  color: red;
+  /* color: red; */
+
 }
 .conheca-mais-sobre .content-left .subtitle{
   color: white;
+  margin-bottom: 24px;
 }
 .conheca-mais-sobre .content-left p{
-  color: white;
+  color: #a7a3a3;
+
 }
 .conheca-mais-sobre .content-right img{
   width: 300px;
   height: 500px;
   object-fit: cover;
+}
+.conheca-mais-sobre .content-left .button{
+  margin-top: 16px;
+  width: 100%;
+}
+.conheca-mais-sobre .content-left .button p{
+  color: white;
+  font-weight: bold;
 }
 /* fim - conheça mais tarde */
 /* inicio - agende horario */
@@ -47,19 +91,25 @@
 }
 .agende-horario .content-right {
   height: 100%;
+  width: 300px;
   justify-content: center;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
 }
 .agende-horario .content-right .title{
-  color: red;
+  color: white;
+  font-family: 'Roboto', sans-serif;
 }
 .agende-horario .content-right .subtitle{
   color: white;
+  margin-bottom: 8px;
 }
 .agende-horario .content-right p{
-  color: white;
+  color: #a7a3a3;
+}
+.agende-horario .content-right .button {
+  margin-top: 24px;
 }
 .agende-horario .col-6 {
   padding: 0;
@@ -97,13 +147,16 @@
   border-radius: 20px;
 }
 .contrate .content .title{
-  color: red;
+  color: white;
 }
 .contrate .content .subtitle{
   color: white;
+  margin-top: 8px;
 }
+.contrate .content .button p {  margin: 0;}
 .contrate .content p{
   color: white;
+  margin-top: 16px;
 }
 /* fim - contrate */
 
@@ -113,7 +166,7 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: #cfcfcf;
+  background: #F3F3F3;
 }
 .metodo .content{
   justify-content: center;
@@ -122,15 +175,27 @@
   flex-direction: column;  
   padding: 32px;
   border-radius: 20px;
+  width: 300px;
 }
+
 .metodo .content .title{
-  color: red;
+  color: #000;
+  font-family: 'Roboto', sans-serif;
 }
 .metodo .content .subtitle{
+  margin-top: 8px;
+  margin-bottom: 16px;
   color: #000;
+  font-family: 'Roboto', sans-serif;
 }
 .metodo .content p{
   color: #000;
+}
+.metodo .content .title-orange{
+
+  background: linear-gradient(90deg, rgba(212,151,126,1) 0%, rgba(219,176,157,1) 50%, rgba(212,151,126,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .metodo .content-button{
   display: flex;
