@@ -28,6 +28,7 @@ h1{ font-size: 36px;}
 h2{  font-size: 32px;  }
 h3{  font-size: 24px;  }
     
+.p-cinza-claro{  color: #a7a3a3;}
 /* inicio - conheça mais tarde */
 .conheca-mais-sobre{
   display: flex;
@@ -55,23 +56,20 @@ h3{  font-size: 24px;  }
   color: white;
   margin-bottom: 24px;
 }
-.conheca-mais-sobre .content-left p{
+/* .conheca-mais-sobre .content-left p{
   color: #a7a3a3;
 
-}
+} */
 .conheca-mais-sobre .content-right img{
   width: 300px;
   height: 500px;
   object-fit: cover;
 }
-.conheca-mais-sobre .content-left .button{
+.conheca-mais-sobre .content-left .botao{
   margin-top: 16px;
   width: 100%;
 }
-.conheca-mais-sobre .content-left .button p{
-  color: white;
-  font-weight: bold;
-}
+
 /* fim - conheça mais tarde */
 /* inicio - agende horario */
 .agende-horario{
@@ -105,12 +103,13 @@ h3{  font-size: 24px;  }
   color: white;
   margin-bottom: 8px;
 }
-.agende-horario .content-right p{
+/* .agende-horario .content-right p{
   color: #a7a3a3;
-}
-.agende-horario .content-right .button {
+} */
+.agende-horario .content-right .botao {
   margin-top: 24px;
 }
+
 .agende-horario .col-6 {
   padding: 0;
 }
@@ -146,18 +145,14 @@ h3{  font-size: 24px;  }
   padding: 32px;
   border-radius: 20px;
 }
-.contrate .content .title{
-  color: white;
-}
+.contrate .content .title{  color: white;}
 .contrate .content .subtitle{
   color: white;
   margin-top: 8px;
 }
-.contrate .content .button p {  margin: 0;}
-.contrate .content p{
-  color: white;
-  margin-top: 16px;
-}
+.contrate .content .botao p {  margin: 0; }
+.contrate .content p{ margin-top: 16px;}
+
 /* fim - contrate */
 
 /* inicio - metodo */
@@ -191,12 +186,12 @@ h3{  font-size: 24px;  }
 .metodo .content p{
   color: #000;
 }
-.metodo .content .title-orange{
+/* .metodo .content .title-orange{
 
   background: linear-gradient(90deg, rgba(212,151,126,1) 0%, rgba(219,176,157,1) 50%, rgba(212,151,126,1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
+} */
 .metodo .content-button{
   display: flex;
   justify-content: center;
@@ -232,19 +227,24 @@ h3{  font-size: 24px;  }
 }
 .videos-youtube .content .title{
   color: #fff;
+  display: flex;
+  font-family: 'Roboto', sans-serif;
 }
 .videos-youtube .content .subtitle{
   color: #fff;
 }
 .videos-youtube .content p{
-  color: #fff;
+  margin-top: 8px;
 }
-.videos-youtube .content-button{
+.videos-youtube .content .botao{
+  margin-top: 16px;
+}
+/* .videos-youtube .content-button{
   display: flex;
   justify-content: center;
-}
-.videos-youtube .content-button p{
-  color: #fff;
+} */
+.videos-youtube .content .botao p{
+  margin: 0;
 }
 .videos-youtube .bottom{
   /* display: flex;
