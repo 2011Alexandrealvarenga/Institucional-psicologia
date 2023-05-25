@@ -70,13 +70,19 @@
 .contrate{
 
   height: 100vh;
-  background: #000;
   width: 100%;
+  background: #000;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url(/assets/img/psicologa-contrate-uma-palestra.jpeg) 0% 0% / cover no-repeat fixed;
-  overflow: hidden;
+  /* background: url(/assets/img/psicologa-contrate-uma-palestra.jpeg) 0% 0% / cover no-repeat fixed;
+  overflow: hidden; */
+
+  background: url(/assets/img/psicologa-contrate-uma-palestra.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 .contrate .content{
   justify-content: center;
@@ -175,6 +181,20 @@
 .videos-youtube .content-button p{
   color: #fff;
 }
-
+.videos-youtube .bottom{
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  /* background: url(/assets/img/psicologa-videos-Michelli-dijon.png) 0% 0% / cover no-repeat fixed;
+  overflow: hidden;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+  /* overflow: hidden; */
+  background: url(/assets/img/psicologa-videos-Michelli-dijon.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 /* fim - videos-youtube */
