@@ -10,62 +10,65 @@ degrade dourado
 paragrafo cinza a7a3a3
 
 */
-.bg-font{
-	background: linear-gradient(90deg, rgba(212,151,126,1) 0%, rgba(219,176,157,1) 50%, rgba(212,151,126,1) 100%);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-}
-h1, h2, h3, h4, h5, h6{
-  line-height: 1.0;
-}
 
-h1, h2{
-  font-family: 'Martel', serif;
-}
-h3, h4, h5, h6, p{font-family: 'Roboto', sans-serif;}
 
-h1{ font-size: 36px;}
-h2{  font-size: 32px;  }
-h3{  font-size: 24px;  }
-    
-.p-cinza-claro{  color: #a7a3a3;}
 /* inicio - conheça mais tarde */
-.conheca-mais-sobre{
+.conheca-mais-sobre .content-float{
+  position: relative;
+}
+.conheca-mais-sobre .content-float .img-topo{
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 360px;
+}
+.conheca-mais-sobre .content-inside{  
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
   background: #000;
 }
-.conheca-mais-sobre .content-left {
+
+
+
+.conheca-mais-sobre .content-inside .content-right{
   height: 100%;
+  position: relative;
+}
+.conheca-mais-sobre .content-inside .content-right .img-abaixo{
   width: 300px;
+  position: absolute;
+  z-index: 2;
+  top: -48px;
+}
+
+
+
+
+
+.conheca-mais-sobre .content-inside .content-left {
+  height: 100%;
+  width: 250px;
   justify-content: center;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  border: 1px solid red;
   float: right;
 
 }
-.conheca-mais-sobre .content-left .title{
-  /* color: red; */
 
-}
-.conheca-mais-sobre .content-left .subtitle{
+.conheca-mais-sobre .content-inside .content-left .subtitle{
   color: white;
   margin-bottom: 24px;
 }
-/* .conheca-mais-sobre .content-left p{
-  color: #a7a3a3;
 
-} */
-.conheca-mais-sobre .content-right img{
+.conheca-mais-sobre .content-inside .content-right img{
   width: 300px;
   height: 500px;
   object-fit: cover;
 }
-.conheca-mais-sobre .content-left .botao{
+.conheca-mais-sobre .content-inside .content-left .botao{
   margin-top: 16px;
   width: 100%;
 }

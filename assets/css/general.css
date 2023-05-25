@@ -19,3 +19,17 @@ h1, h2, h3, h4, h5, h6 {
   color: white;
   font-weight: bold;
 }
+.bg-font{
+	background: linear-gradient(90deg, rgba(212,151,126,1) 0%, rgba(219,176,157,1) 50%, rgba(212,151,126,1) 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+h1, h2, h3, h4, h5, h6{  line-height: 1.0;}
+
+h1, h2{  font-family: 'Martel', serif;}
+h3, h4, h5, h6, p{font-family: 'Roboto', sans-serif;}
+
+h1{ font-size: 36px;}
+h2{  font-size: 32px;  }
+h3{  font-size: 24px;  }    
+.p-cinza-claro{  color: #a7a3a3;}
