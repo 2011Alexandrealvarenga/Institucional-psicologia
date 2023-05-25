@@ -70,13 +70,11 @@
 .contrate{
 
   height: 100vh;
-  /* height: 500px; */
   background: #000;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background: url(/assets/img/psicologa-contrate-uma-palestra.jpeg); */
   background: url(/assets/img/psicologa-contrate-uma-palestra.jpeg) 0% 0% / cover no-repeat fixed;
   overflow: hidden;
 }
@@ -101,5 +99,82 @@
 .contrate .content p{
   color: white;
 }
-
 /* fim - contrate */
+
+/* inicio - metodo */
+.metodo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #cfcfcf;
+}
+.metodo .content{
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;  
+  padding: 32px;
+  border-radius: 20px;
+}
+.metodo .content .title{
+  color: red;
+}
+.metodo .content .subtitle{
+  color: #000;
+}
+.metodo .content p{
+  color: #000;
+}
+.metodo .content-button{
+  display: flex;
+  justify-content: center;
+}
+.metodo .content-button p{
+  color: #fff;
+}
+
+/* fim - metodo */
+
+/* inicio - videos-youtube */
+.videos-youtube{
+  height: 100vh;
+}
+.videos-youtube .top{
+  height: 40%;
+  width: 100%;
+  background: #000;
+}
+.videos-youtube .bottom{
+  height: 60%;
+  width: 100%;
+  background: #fff;
+}
+.videos-youtube .content{
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;  
+  width: 300px;
+  padding: 32px;
+  border-radius: 20px;
+}
+.videos-youtube .content .title{
+  color: #fff;
+}
+.videos-youtube .content .subtitle{
+  color: #fff;
+}
+.videos-youtube .content p{
+  color: #fff;
+}
+.videos-youtube .content-button{
+  display: flex;
+  justify-content: center;
+}
+.videos-youtube .content-button p{
+  color: #fff;
+}
+
+
+/* fim - videos-youtube */
