@@ -14,6 +14,7 @@ paragrafo cinza a7a3a3
 
 /* inicio - conheça mais tarde */
 
+
 .conheca-mais-sobre {  
   display: flex;
   justify-content: center;
@@ -71,36 +72,28 @@ paragrafo cinza a7a3a3
   align-items: center;
   height: 100vh;
   background: #000;
-  border: 1px solid yellow;
 }
-.agende-horario .container,
-.agende-horario .row
-{
-  height: 100%;
-}
-
 .agende-horario .content-left{
   display: flex;
   float: right;
   position: relative;
-  border: 1px solid red;
   height: 100%;
   width: 100%;
   float: right;
-
 }
 .agende-horario .content-left .img-topo{
-
+  position: absolute;
+  right: 32px;
+  top: -13%;
 }
 .agende-horario .content-left .img-maior{
   position: absolute;
-  bottom: 0;
-
+  bottom: -67%;
+  right: 0;
 }
-
 .agende-horario .content-right {
   height: 100%;
-  width: 300px;
+  width: 250px;
   justify-content: center;
   display: flex;
   flex-wrap: wrap;
@@ -156,6 +149,8 @@ paragrafo cinza a7a3a3
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  z-index: 2;
+  position: absolute;
 
 }
 .contrate .content{
@@ -195,7 +190,7 @@ paragrafo cinza a7a3a3
   flex-direction: column;  
   padding: 32px;
   border-radius: 20px;
-  width: 300px;
+  width: 250px;
 }
 
 .metodo .content .title{
@@ -246,7 +241,7 @@ paragrafo cinza a7a3a3
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;  
-  width: 300px;
+  width: 250px;
   padding: 32px;
   border-radius: 20px;
 }
