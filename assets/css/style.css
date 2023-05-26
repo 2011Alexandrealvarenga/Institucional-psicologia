@@ -74,6 +74,15 @@ paragrafo cinza a7a3a3
 }
 
 /* fim - conheça mais tarde */
+
+
+
+
+
+
+
+
+
 /* inicio - agende horario */
 .agende-horario{
   display: flex;
@@ -81,15 +90,33 @@ paragrafo cinza a7a3a3
   align-items: center;
   height: 100vh;
   background: #000;
+  border: 1px solid yellow;
 }
+.agende-horario .container,
+.agende-horario .row
+{
+  height: 100%;
+}
+
 .agende-horario .content-left{
+  display: flex;
   float: right;
+  position: relative;
+  border: 1px solid red;
+  height: 100%;
+  width: 100%;
+  float: right;
+
 }
-.agende-horario .content-left img{
-  height: 500px;
-  object-fit: cover;
-  align-items: right;
+.agende-horario .content-left .img-topo{
+
 }
+.agende-horario .content-left .img-maior{
+  position: absolute;
+  bottom: 0;
+
+}
+
 .agende-horario .content-right {
   height: 100%;
   width: 300px;
@@ -106,9 +133,7 @@ paragrafo cinza a7a3a3
   color: white;
   margin-bottom: 8px;
 }
-/* .agende-horario .content-right p{
-  color: #a7a3a3;
-} */
+
 .agende-horario .content-right .botao {
   margin-top: 24px;
 }
@@ -117,6 +142,22 @@ paragrafo cinza a7a3a3
   padding: 0;
 }
 /* fim - agende horario */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* inicio - contrate */
 .contrate{
