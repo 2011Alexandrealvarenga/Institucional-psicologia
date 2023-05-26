@@ -255,7 +255,7 @@ paragrafo cinza a7a3a3
   width: 100%;
   background: #fff;
 }
-.videos-youtube .content{
+.videos-youtube .top .content{
   justify-content: center;
   display: flex;
   flex-wrap: wrap;
@@ -263,26 +263,34 @@ paragrafo cinza a7a3a3
   width: 250px;
   padding: 32px;
   border-radius: 20px;
+  position: relative;
 }
-.videos-youtube .content .title{
+.videos-youtube .top .content img {
+  position: absolute;
+  bottom: -280px;
+  left: 138px;
+}
+.videos-youtube .top .content .title{
   color: #fff;
   display: flex;
   font-family: 'Roboto', sans-serif;
 }
-.videos-youtube .content .subtitle{
+.videos-youtube .top .content .subtitle{
   color: #fff;
 }
-.videos-youtube .content p{
+
+.videos-youtube .top .content p {
   margin-top: 8px;
+  width: 250px;
 }
-.videos-youtube .content .botao{
+.videos-youtube .top .content .botao{
   margin-top: 16px;
 }
-/* .videos-youtube .content-button{
+/* .videos-youtube .top .content-button{
   display: flex;
   justify-content: center;
 } */
-.videos-youtube .content .botao p{
+.videos-youtube .top .content .botao p{
   margin: 0;
 }
 .videos-youtube .bottom{
