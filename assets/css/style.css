@@ -244,18 +244,24 @@ paragrafo cinza a7a3a3
 /* inicio - videos-youtube */
 .videos-youtube{
   height: 100vh;
-}
-.videos-youtube .top{
-  height: 40%;
   width: 100%;
-  background: #000;
+  background: url(/assets/img/psicologa-psicologia-michelli-duje-videos.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.videos-youtube .bottom{
-  height: 60%;
-  width: 100%;
-  background: #fff;
+
+
+
+
+
+.content-external{
+  position: relative;
 }
-.videos-youtube .top .content{
+.videos-youtube .content{
   justify-content: center;
   display: flex;
   flex-wrap: wrap;
@@ -263,50 +269,42 @@ paragrafo cinza a7a3a3
   width: 250px;
   padding: 32px;
   border-radius: 20px;
-  position: relative;
+  position: absolute;
+  top: -335px;
+  left: 0;
 }
-.videos-youtube .top .content img {
+.videos-youtube .content-external img {
   position: absolute;
   bottom: -280px;
   left: 138px;
+  width: 155%;
 }
-.videos-youtube .top .content .title{
+
+
+
+
+
+
+.videos-youtube .content .title{
   color: #fff;
   display: flex;
   font-family: 'Roboto', sans-serif;
 }
-.videos-youtube .top .content .subtitle{
+.videos-youtube .content .subtitle{
   color: #fff;
 }
 
-.videos-youtube .top .content p {
+.videos-youtube .content p {
   margin-top: 8px;
   width: 250px;
 }
-.videos-youtube .top .content .botao{
+.videos-youtube .content .botao{
   margin-top: 16px;
 }
-/* .videos-youtube .top .content-button{
-  display: flex;
-  justify-content: center;
-} */
-.videos-youtube .top .content .botao p{
+.videos-youtube .content .botao p{
   margin: 0;
 }
-.videos-youtube .bottom{
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
-  /* background: url(/assets/img/psicologa-videos-Michelli-dijon.png) 0% 0% / cover no-repeat fixed;
-  overflow: hidden;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; */
-  /* overflow: hidden; */
-  background: url(/assets/img/psicologa-videos-Michelli-dijon.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+
+
 
 /* fim - videos-youtube */
