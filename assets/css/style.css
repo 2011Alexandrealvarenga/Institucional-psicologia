@@ -164,6 +164,7 @@ paragrafo cinza a7a3a3
   height: 400px;
   padding: 32px;
   border-radius: 20px;
+  position: relative;
 }
 .contrate .content .title{  color: white;}
 .contrate .content .subtitle{
@@ -172,8 +173,19 @@ paragrafo cinza a7a3a3
 }
 .contrate .content .botao p {  margin: 0; }
 .contrate .content p{ margin-top: 16px;}
-
+.contrate .content .botao {
+  position: absolute;
+  bottom: -15px;
+}
 /* fim - contrate */
+
+
+
+
+
+
+
+
 
 /* inicio - metodo */
 .metodo{
