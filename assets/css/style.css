@@ -88,7 +88,7 @@ paragrafo cinza a7a3a3
 }
 .agende-horario .content-left .img-maior{
   position: absolute;
-  bottom: -67%;
+  bottom: -50%;
   right: 0;
 }
 .agende-horario .content-right {
@@ -149,8 +149,8 @@ paragrafo cinza a7a3a3
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  z-index: 2;
-  position: absolute;
+  /* z-index: 2; */
+  /* position: absolute; */
 
 }
 .contrate .content{
@@ -202,7 +202,16 @@ paragrafo cinza a7a3a3
   flex-direction: column;  
   padding: 32px;
   border-radius: 20px;
-  width: 250px;
+  width: 300px;
+}
+.metodo .content-left {
+  float: right;
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+.metodo .content-left img{
+  width: 300px;
 }
 
 .metodo .content .title{
@@ -218,17 +227,15 @@ paragrafo cinza a7a3a3
 .metodo .content p{
   color: #000;
 }
-/* .metodo .content .title-orange{
 
-  background: linear-gradient(90deg, rgba(212,151,126,1) 0%, rgba(219,176,157,1) 50%, rgba(212,151,126,1) 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-} */
 .metodo .content-button{
   display: flex;
   justify-content: center;
 }
-.metodo .content-button p{
+.metodo .content-button .botao {
+  margin-top: 24px;
+}
+.metodo .content-button .botao p{
   color: #fff;
 }
 
