@@ -1,3 +1,6 @@
+body{
+  position: relative;
+}
 p{
   margin: 0;
 }
@@ -33,3 +36,33 @@ h1{ font-size: 36px;}
 h2{  font-size: 32px;  }
 h3{  font-size: 24px;  }    
 .p-cinza-claro{  color: #a7a3a3;}
+
+
+/* inicio - icone ir par acima */
+.go-top {
+  position: absolute;
+  top: 0;
+  right: 6px;
+  height: 100%;
+  z-index: 1000;
+}
+
+.go-top:before {
+  content: '';
+  display: block;
+  height: 100vh;
+  pointer-events: none;
+}
+
+.go-top a {
+  position: sticky;
+  top: 95vh;
+  cursor: pointer;
+  font-size: 20px;
+}
+.go-top a .icon-go-top{
+  width: 60px;
+  background: white;
+  border-radius: 100%;
+}
+/* fim - icone ir par acima */
