@@ -10,7 +10,12 @@ degrade dourado
 paragrafo cinza a7a3a3
 
 */
-
+body{
+  background-image: url(assets/img/background-image.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+}
 
 /* inicio - conheça mais tarde */
 
@@ -71,7 +76,7 @@ paragrafo cinza a7a3a3
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: #000;
+  /* background: #000; */
 }
 .agende-horario .content-left{
   display: flex;
@@ -136,15 +141,12 @@ paragrafo cinza a7a3a3
 /* inicio - contrate */
 .contrate{
 
+  /* background: #000; */
   height: 100vh;
   width: 100%;
-  background: #000;
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background: url(/assets/img/psicologa-contrate-uma-palestra.jpeg) 0% 0% / cover no-repeat fixed;
-  overflow: hidden; */
-
   background: url(https://2011alexandrealvarenga.github.io/Institucional-psicologia/assets/img/psicologa-contrate-uma-palestra.jpeg);
   background-position: center;
   background-repeat: no-repeat;
