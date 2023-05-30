@@ -48,7 +48,7 @@ h3{  font-size: 24px;  }
 .go-top {
   position: absolute;
   top: 0;
-  right: 6px;
+  right: 12px;
   height: 100%;
   z-index: 1000;
 }
@@ -62,7 +62,7 @@ h3{  font-size: 24px;  }
 
 .go-top a {
   position: sticky;
-  top: 95vh;
+  top: 93vh;
   cursor: pointer;
   font-size: 20px;
 }
