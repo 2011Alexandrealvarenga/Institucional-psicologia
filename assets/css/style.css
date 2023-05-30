@@ -11,21 +11,16 @@ paragrafo cinza a7a3a3
 
 */
 body{
-  background-image: url(https://2011alexandrealvarenga.github.io/Institucional-psicologia/assets/img/background-image.jpg);
-  /* background-repeat: no-repeat;
-  background-attachment: fixed; 
-  background-size: 100% 100%; */
+  background-image: url('https://www.boraviver.space/wp-content/uploads/2023/05/background-body.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
-
 /* inicio - conheça mais tarde */
-
-
 .conheca-mais-sobre {  
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: #000;
 }
 .conheca-mais-sobre .content-right{
   height: 100%;
@@ -62,21 +57,12 @@ body{
 
 /* fim - conheça mais tarde */
 
-
-
-
-
-
-
-
-
 /* inicio - agende horario */
 .agende-horario{
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  /* background: #000; */
 }
 .agende-horario .content-left{
   display: flex;
@@ -122,26 +108,8 @@ body{
 }
 /* fim - agende horario */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* inicio - contrate */
 .contrate{
-
-  /* background: #000; */
   height: 100vh;
   width: 100%;
   display: flex;
@@ -151,9 +119,6 @@ body{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  /* z-index: 2; */
-  /* position: absolute; */
-
 }
 .contrate .content{
   justify-content: center;
@@ -180,14 +145,6 @@ body{
   bottom: -15px;
 }
 /* fim - contrate */
-
-
-
-
-
-
-
-
 
 /* inicio - metodo */
 .metodo{
@@ -256,10 +213,6 @@ body{
   align-items: center;
 }
 
-
-
-
-
 .content-external{
   position: relative;
 }
@@ -281,12 +234,6 @@ body{
   left: 138px;
   width: 155%;
 }
-
-
-
-
-
-
 .videos-youtube .content .title{
   color: #fff;
   display: flex;
