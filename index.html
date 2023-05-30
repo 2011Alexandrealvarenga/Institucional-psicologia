@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Michelli Duje - Psicóloga Clínica</title>
   <meta name="description" content="descrição do site">
   <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="assets/css/style.css">
@@ -140,10 +140,46 @@
         </div>
       </div>
     </div>
-
-
   </section>
+  <div class="corpo">
+    <div class="go-top">
+      <a href="#top">
+        <img src="assets/img/psicologa-go-top.svg" class="icon-go-top" alt="">
+      </a>
+    </div>
+  </div>
 
+  <style>
+    body{
+      position: relative;
+    }
+    .go-top {
+      position: absolute;
+      top: 0;
+      right: 6px;
+      height: 100%;
+      z-index: 1000;
+    }
+
+    .go-top:before {
+      content: '';
+      display: block;
+      height: 100vh;
+      pointer-events: none;
+    }
+
+    .go-top a {
+      position: sticky;
+      top: 95vh;
+      cursor: pointer;
+      font-size: 20px;
+    }
+    .go-top a .icon-go-top{
+      width: 60px;
+      background: white;
+      border-radius: 100%;
+    }
+  </style>
 
   <script src="assets/js/bootstrap.bundle.min.js"></script>
   <script src="assets/js/general.js"></script>
