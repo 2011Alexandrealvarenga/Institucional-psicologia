@@ -29,8 +29,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 h1, h2, h3, h4, h5, h6{  line-height: 1.0;}
 
-h1, h2{  font-family: 'Martel', serif;}
-h3, h4, h5, h6, p{font-family: 'Roboto', sans-serif;}
+/* h1, h2{  
+  font-family: 'Martel', serif;
+} */
+h2, h3, h4, h5, h6, p{
+  /* font-family:'Andora Modern Script Regular'; */
+  font-family: 'Andora Modern Script Regular';
+  font-weight: normal;
+}
 
 h1{ font-size: 36px;}
 h2{  font-size: 32px;  }
