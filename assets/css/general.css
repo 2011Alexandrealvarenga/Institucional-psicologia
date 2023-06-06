@@ -72,3 +72,14 @@ h3{  font-size: 24px;  }
   border-radius: 100%;
 }
 /* fim - icone ir par acima */
+
+/* inicio - redes sociais */
+.social-media {
+    background: #000;
+    height: 100px;
+}
+.social-media .title {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+/* fim - redes sociais */
