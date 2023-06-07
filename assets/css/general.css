@@ -100,14 +100,53 @@ ul{
 
 /* inicio - redes sociais */
 .social-media {
-    background: #000;
-    height: 200px;
+    /* background: blue; */
+    padding-top: 50px;
+    padding-bottom: 20px;
 }
-.social-media .media {
-    margin-top: 30px;
+.social-media span{
+  color: white;
+  margin-left: 4px;
 }
-.social-media .media .title {
+
+
+
+.social-media .content-left .title {
+color: white;
+font-family: 'Roboto', sans-serif;
+}
+.social-media .content-left .content{
+display: grid;
+margin-top: 16px;
+}
+.social-media .content-left .content .item {
+margin-top: 8px;
+}
+.social-media .content-left .content .item img {
+width: 30px;
+}
+
+
+
+
+
+.social-media .content-right {
+    /* margin-top: 30px; */
+}
+.social-media .content-right .title {
   color: white;
   font-family: 'Roboto', sans-serif;
 }
+.social-media .content-right .content{
+  display: grid;
+  margin-top: 16px;
+}
+.social-media .content-right .content .item {
+  margin-top: 8px;
+}
+.social-media .content-right .content .item img {
+  width: 30px;
+}
+
+
 /* fim - redes sociais */
