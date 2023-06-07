@@ -43,6 +43,16 @@ h2{  font-size: 32px;  }
 h3{  font-size: 24px;  }    
 .p-cinza-claro{  color: #a7a3a3;}
 
+/* inicio - menu */
+.nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: #000;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+/* fim - menu */
+
 
 /* inicio - icone ir par acima */
 .go-top {
@@ -76,9 +86,12 @@ h3{  font-size: 24px;  }
 /* inicio - redes sociais */
 .social-media {
     background: #000;
-    height: 100px;
+    height: 200px;
 }
-.social-media .title {
+.social-media .media {
+    margin-top: 30px;
+}
+.social-media .media .title {
   color: white;
   font-family: 'Roboto', sans-serif;
 }
