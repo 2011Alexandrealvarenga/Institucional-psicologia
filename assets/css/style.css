@@ -16,46 +16,13 @@ body{
   background-size: 100% 100%;
 }
 
-
-
-/* inicio - social media top */
-.social-media-top{
-  background: #000;
-}
-.social-media-top .content{
-  height: 36px;
-  display: flex;
-  justify-content: right;
-  align-items: center;
-}
-.social-media-top .content img{
-  width: 25px;
-}
-
-.social-media-top .content a{
-  color: white;
-  margin-right: 24px;
-}
-.social-media-top .content span{
-  margin-left: 2px;
-}
-
-/* fim - social media top */
-
-
-
-
-
-
-
-
 /* inicio - conheça mais tarde */
 .conheca-mais-sobre {  
-  display: none;
-  /* display: flex; */
+  display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 95vh;
+  margin-top: 100px;
 }
 .conheca-mais-sobre .content-right{
   height: 100%;
